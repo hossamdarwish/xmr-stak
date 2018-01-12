@@ -10,4 +10,4 @@ cmake ./
 make
 make install
 echo "Log off from all user ttys"
-echo "after that run ~/xmr-stak/bin/xmr-stak-cpu -c ~/xmr-stak/bin/config.txt"
+echo "after that run ~/xmr-stak/bin/xmr-stak -c ~/xmr-stak/bin/config.txt"
