@@ -3,7 +3,7 @@ sudo cat <<EOT >> /etc/security/limits.conf
 Description=xmr
 After=network.target
 [Service]
-ExecStart=/usr/local/src/xmr-stak/bin/xmr-stak 
+ExecStart=/home/sala/xmr-stak/bin/xmr-stak 
 User=root
 [Install]
 WantedBy=multi-user.target
