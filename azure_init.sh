@@ -6,8 +6,9 @@ cd xmr-stak
 sudo echo -e "\n* soft memlock 262144 \n* hard memlock 262144 \n" >>  /etc/security/limits.conf
 sudo echo -e "\nvm.nr_hugepages=128\n" >>  /etc/sysctl.conf
 sudo sysctl -p
-cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF -DCONF_NO_AEON=1
+cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make 
 make install
 echo "Log off from all user ttys"
-echo "after that run ~/xmr-stak/bin/xmr-stak --noNVIDIA --noAMD -c ~/xmr-stak/bin/config.txt"
+
+echo "after that run sudo ~/xmr-stak/bin/xmr-stak --noNVIDIA --noAMD"
