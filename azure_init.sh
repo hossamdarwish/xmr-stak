@@ -6,7 +6,7 @@ cd xmr-stak
 sudo echo -e "\n* soft memlock 262144 \n* hard memlock 262144 \n" >>  /etc/security/limits.conf
 sudo echo -e "\nvm.nr_hugepages=128\n" >>  /etc/sysctl.conf
 sudo sysctl -p
-cmake ./ -DCUDA_ENABLE=OFF
+cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF -DCONF_NO_AEON=1
 make 
 make install
 echo "Log off from all user ttys"
