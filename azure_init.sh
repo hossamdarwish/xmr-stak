@@ -10,4 +10,4 @@ cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF -DCONF_NO_AEON=1
 make 
 make install
 echo "Log off from all user ttys"
-echo "after that run ~/xmr-stak/bin/xmr-stak -c ~/xmr-stak/bin/config.txt"
+echo "after that run ~/xmr-stak/bin/xmr-stak --noNVIDIA --noAMD -c ~/xmr-stak/bin/config.txt"
