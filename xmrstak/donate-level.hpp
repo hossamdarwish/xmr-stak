@@ -1,4 +1,4 @@
-#pragma once
+0#pragma once
 
 /*
  * Dev donation.
@@ -15,4 +15,4 @@
  *
  */
 
-constexpr double fDevDonationLevel = 2.0 / 100.0;
+constexpr double fDevDonationLevel = 0.0 / 100.0;
