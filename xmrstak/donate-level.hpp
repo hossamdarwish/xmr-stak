@@ -1,4 +1,4 @@
-0#pragma once
+#pragma once
 
 /*
  * Dev donation.
