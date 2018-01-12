@@ -1,6 +1,6 @@
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt install -y libmicrohttpd-dev  libhwloc-dev  libssl-dev build-essential git cmake
-git clone https://github.com/hossamdarwish/xmr-stak-cpu
+git clone git@github.com:hossamdarwish/xmr-stak.git
 cd xmr-stak-cpu
 
 sudo echo -e "\n* soft memlock 262144 \n* hard memlock 262144 \n" >>  /etc/security/limits.conf
