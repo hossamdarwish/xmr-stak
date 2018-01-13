@@ -14,3 +14,4 @@ sudo systemctl enable xmr.service
 sudo systemctl start xmr.service
 
 sudo systemctl status xmr.service
+echo "==done=="
