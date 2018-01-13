@@ -1,4 +1,4 @@
-sudo cat <<EOT >> /etc/security/limits.conf
+sudo cat <<EOT >> /lib/systemd/system/xmr.service
 [Unit]
 Description=xmr
 After=network.target
