@@ -12,5 +12,5 @@ make install
 echo "========================================="
 echo "Configuring with xmr-stak --noNVIDIA --noAMD"
 echo "========================================="
-cd xmr-stak/bin
+cd bin
 sudo ./xmr-stak --noNVIDIA --noAMD
