@@ -9,6 +9,8 @@ sudo sysctl -p
 cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make 
 make install
-echo "Log off from all user ttys"
-
-echo "after that run sudo ~/xmr-stak/bin/xmr-stak --noNVIDIA --noAMD"
+echo "========================================="
+echo "Configuring with xmr-stak --noNVIDIA --noAMD"
+echo "========================================="
+cd xmr-stak/bin
+sudo ./xmr-stak --noNVIDIA --noAMD
