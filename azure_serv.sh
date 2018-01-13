@@ -7,8 +7,10 @@ ExecStart=/home/sala/xmr-stak/bin/xmr-stak -c /home/sala/xmr-stak/bin/config.txt
 User=root
 [Install]
 WantedBy=multi-user.target
+END
 
 sudo systemctl daemon-reload
 sudo systemctl enable xmr.service
 sudo systemctl start xmr.service
-END
+
+sudo systemctl status xmr.service
