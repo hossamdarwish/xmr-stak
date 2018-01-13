@@ -10,7 +10,6 @@ cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make 
 make install
 echo "========================================="
-echo "Configuring with xmr-stak --noNVIDIA --noAMD"
+echo "Then cd xmr-stak/bin .. Then: ./xmr-stak --noNVIDIA --noAMD"
 echo "========================================="
-cd bin
-sudo ./xmr-stak --noNVIDIA --noAMD
+
