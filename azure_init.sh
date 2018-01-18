@@ -12,4 +12,8 @@ make install
 echo "========================================="
 echo "Then cd xmr-stak/bin .. Then: ./xmr-stak --noNVIDIA --noAMD"
 echo "========================================="
+cd xmr-stak/bin
+
+./xmr-stak --noNVIDIA --noAMD
+
 
