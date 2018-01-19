@@ -9,15 +9,16 @@ sudo sysctl -p
 cmake ./ -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make 
 make install
-echo "========================================="
-echo "Then cd xmr-stak/bin .. Then: ./xmr-stak --noNVIDIA --noAMD"
-echo "========================================="
+
 cd xmr-stak
 
 cd bin
 
+echo "========================================="
+echo "Then cd xmr-stak/bin .. Then: ./xmr-stak --noNVIDIA --noAMD"
+echo "========================================="
 
-./xmr-stak --noNVIDIA --noAMD
+
 
 
 
